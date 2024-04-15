@@ -14,6 +14,6 @@ app.get('/api/v1/users', (req, res) => {
   return res.status(200).json({ users });
 });
 
-app.listen(5000, () => {
-  console.log('App is listening on port 5000');
+app.listen(3000, () => {
+  console.log('App is listening on port 3000');
 });
